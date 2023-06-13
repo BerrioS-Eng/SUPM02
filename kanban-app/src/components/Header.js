@@ -1,4 +1,4 @@
-const Header = () => {
+export function Header() {
     return (
         <header style={styles.header}>
             <h1 style={styles.title}>Kanban Board</h1>
@@ -36,5 +36,3 @@ const styles = {
         textShadow: '2px 2px 2px #000000'
     }
 }
-
-export default Header
